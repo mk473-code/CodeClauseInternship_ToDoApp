@@ -1,16 +1,48 @@
-# todo_app
+# 📌 CodeClause Internship - ToDo App with Categories (Flutter)
 
-A new Flutter project.
+## 📖 Project Overview
+A clean Flutter ToDo application with full **CRUD** (Create, Read, Update, Delete), task **categories** (Work, Study, Personal, Health, Ideas), **mark done ✔**, **filter by category**, and **persistent storage** using `shared_preferences`.  
 
-## Getting Started
+No Firebase required. Runs on **Android**, **Web (Chrome)**, and **Windows**.  
 
-This project is a starting point for a Flutter application.
+Developed as part of my **Android Development Internship with CodeClause (August 2025)**.  
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## ✨ Features
+- ➕ **Create** new tasks with a category  
+- 👁️ **Read** tasks with category filter (All / Work / Study / Personal / Health / Ideas)  
+- ✏️ **Update** task title & category  
+- 🗑️ **Delete** tasks  
+- ✅ **Mark done/undone** with a checkbox  
+- 💾 **Persistent storage** (saved locally via `shared_preferences`)  
+- 🧪 **Unit/widget tests** included (`flutter test`)  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 📦 Tech Stack
+- **Framework:** Flutter  
+- **Language:** Dart  
+- **Storage:** shared_preferences (local key-value storage)  
+- **UI:** Material Design  
+
+---
+
+## 📸 Screenshots
+> Add your images into `assets/screenshots/` and update paths below.
+
+| Home | Add/Edit | Filter |
+|------|----------|--------|
+| ![Home](assets/screenshots/home.png) | ![Dialog](assets/screenshots/dialog.png) | ![Filter](assets/screenshots/filter.png) |
+
+---
+
+## 🚀 Getting Started
+
+### 1) Clone Repository
+```bash
+git clone https://github.com/mk473-code/CodeClauseInternship_ToDoApp.git
+cd CodeClauseInternship_ToDoApp
+
+
+run: flutter run -d chrome
