@@ -29,13 +29,10 @@ Developed as part of my **Android Development Internship with CodeClause (August
 ---
 
 ## 📸 Screenshots
-> Add your images into `assets/screenshots/` and update paths below.
+| Create Task | Read Task | Completed Task |
+|-------------|-----------|----------------|
+| ![Create Task](assets/screenshots/create_task.png) | ![Read Task](assets/screenshots/read_task.png) | ![Completed Task](assets/screenshots/completed_task.png) |
 
-| Home | Add/Edit | Filter |
-|------|----------|--------|
-| ![Home](assets/screenshots/home.png) | ![Dialog](assets/screenshots/dialog.png) | ![Filter](assets/screenshots/filter.png) |
-
----
 
 ## 🚀 Getting Started
 
